@@ -112,7 +112,7 @@ class LexicalAnalyzer:
         if self.current_state == 'ER':
             print('Error. Please check program for errors!')
         if self.current_state == 'FIN':
-            print('Process has completed successfully!')
+            print('Lexical analysis completed successfully!')
         self.file.close()
         return self.lexeme_list
 
